@@ -1,7 +1,13 @@
+/* Resets and Resizes */
 * {
 margin: 0;
 }
 
+html,body {
+  height: 100%;
+}
+
+/* Main Container and Background Color*/
 .main-container {
   position: relative;
 }
@@ -21,7 +27,6 @@ margin: 0;
 
 body {
   font-family: 'Raleway', sans-serif;
-  height: 930px;
 }
 
 header {
@@ -29,4 +34,21 @@ header {
   font-family: 'Josefin Sans', sans-serif;
   font-size: 2em;
   padding: 3px;
+}
+
+/* Footer */
+footer {
+  width: 100%;
+  position: absolute;
+  bottom: 10px;
+  display:flex;
+  justify-content:space-around;
+}
+
+#links {
+  margin: 0px auto;
+}
+
+#links a {
+  margin: 5px 10px;
 }
