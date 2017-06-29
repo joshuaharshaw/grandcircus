@@ -1,0 +1,39 @@
+
+/*Image Gallery*/
+#gallery {
+  background-color:#9c9a97;
+  width:80%;
+  height:175px;
+  margin:20px auto;
+  display:flex;
+  justify-content:space-around;
+  border:1px solid gray;
+  border-radius: 4px;
+}
+
+.gallery-img {
+  width:150px;
+  height:150px;
+  background-color:black;
+  margin-top:12.5px;
+  box-shadow: 5px 5px 3px gray;
+  border-radius: 4px;
+}
+
+
+/* Footer */
+footer {
+	width: 100%;
+	position: absolute;
+	bottom: 0px;
+	display:flex;
+  justify-content:space-around;
+}
+
+#links {
+	margin: 0px auto;
+}
+
+#links a {
+	margin: 5px 10px;
+}
