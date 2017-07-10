@@ -7,22 +7,14 @@ html,body {
   height: 100%;
 }
 
+body {
+    background-color: rgba(240, 240, 240, 0.6);
+}
+
+
 /* Main Container and Background Color*/
 .main-container {
   position: relative;
-}
-
-#background-img {
-    background-color:#f0f0f0;
-    content: ' ';
-    display: block;
-    position: absolute;
-    left: 0px;
-    top: 0px;
-    width: 100%;
-    height: 100%;
-    z-index: -1;
-    opacity: 0.6;
 }
 
 body {
