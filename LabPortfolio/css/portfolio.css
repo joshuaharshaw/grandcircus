@@ -9,6 +9,7 @@
 }
 
 h1 {
+	text-align: center;
 	margin: 20px 0px 10px;
 }
 
@@ -20,6 +21,9 @@ hr {
 
 a {
 	color: black;
+	text-decoration:none;
+	min-height: 150px;
+	overflow: auto;
 }
 
 .tile:hover {
