@@ -1,0 +1,13 @@
+.construction {
+	width: 90%;
+	height: 250px;
+	margin: 70px auto 0px auto;
+	background-color:#9c9a97;
+	padding: 10px;
+	border: 2px dashed black;
+	border-radius: 4px;
+}
+
+h2 {
+	text-align: center;
+}

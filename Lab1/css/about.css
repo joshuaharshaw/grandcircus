@@ -1,0 +1,32 @@
+/*Bio Elements*/
+#bio {
+	width: 90%;
+	height: 250px;
+	margin: 70px auto 0px auto;
+	background-color:#9c9a97;
+	padding: 10px;
+	border: 1px solid black;
+	border-radius: 4px;
+}
+
+img {
+	border: 0.5px solid black;
+	border-radius: 8px;
+	float: left;
+	width: 250px;
+	height: 250px;
+}
+
+.bio-content {
+	float: left;
+	margin: 0px 20px;
+	width: 50%;
+}
+
+.bio-content p {
+	margin: 10px 0px;
+}
+
+
+
+
