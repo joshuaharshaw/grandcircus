@@ -59,11 +59,19 @@ header {
   color:rgba(240, 240, 240, 0.6);
 }
 
-#nav-links a {
+#navbar a {
   text-decoration: none;
   color: rgba(240, 240, 240, 0.6);
 }
 
 #nav-links a:hover {
-  font-size: 1.15em;
+  font-size: 1.05em;
+}
+
+
+
+@media (max-width: 481px) {
+
+
+
 }

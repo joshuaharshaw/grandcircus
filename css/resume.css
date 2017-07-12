@@ -70,8 +70,13 @@ h4 {
 .sites {
 	float: left;
 	width: 50%;
-	height: 150px;
+	min-height: 150px;
 	margin:5px;
+	overflow: auto;
+}
+
+.sites a {
+	display: inline-block;
 }
 
 .port-link {
@@ -79,8 +84,6 @@ h4 {
 	height: 64px;
 	margin: 5px 10px;
 }
-
-
 
 /*Right Side- Work Experience */
 .right-side {
