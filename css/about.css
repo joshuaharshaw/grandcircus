@@ -1,5 +1,7 @@
 /*Bio Elements*/
 #bio {
+	display: flex;
+	justify-content: space-between;
 	width: 90%;
 	height: 250px;
 	margin: 70px auto 0px auto;
@@ -10,17 +12,16 @@
 }
 
 img {
+	display: inline-block;
 	border: 0.5px solid black;
 	border-radius: 8px;
-	float: left;
-	width: 250px;
-	height: 250px;
+	max-width: 250px;
+	max-height: 250px;
 }
 
 .bio-content {
-	float: left;
 	margin: 0px 20px;
-	width: 50%;
+	width: 80%;
 }
 
 .bio-content p {
@@ -29,4 +30,17 @@ img {
 
 
 
+@media (max-width: 767px) {
 
+#bio {
+	min-height: 250px;
+}
+
+.bio-content {
+	float: left;
+	margin: 0px 0px 0px 10px;
+	width: 100%;
+}
+
+
+}

@@ -69,9 +69,11 @@ header {
 }
 
 
+@media (max-width: 767px) {
 
-@media (max-width: 481px) {
-
+#nav-links a:hover {
+  font-size: 1.0em;
+}
 
 
 }
