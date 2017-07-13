@@ -1,0 +1,170 @@
+
+/*Navbar*/
+#navbar {
+  color:rgba(240, 240, 240, 0.6);
+  background-color: #39435e;
+  font-family: 'Josefin Sans', sans-serif;
+  height:50px;
+  text-decoration: 
+}
+
+header {
+  float: left;
+  width: 250px;
+  font-size: 2em;
+  padding: 3px; 
+}
+
+#nav-links {
+    float: right;
+    min-width: 150px;
+    list-style-type: none;
+    margin: 12px 20px 0px 0px; 
+    padding: 0;
+}
+
+#nav-links li {
+  font-size: 1.2em;
+  float: left;
+  display: block;
+  margin:0px 5px;
+  color:rgba(240, 240, 240, 0.6);
+}
+
+#navbar a {
+  text-decoration: none;
+  color: rgba(240, 240, 240, 0.6);
+}
+
+#nav-links a:hover {
+  font-size: 1.05em;
+}
+
+
+
+/*Main content*/
+.side {
+	height: 300px;
+	margin: 20px;
+}
+
+.cat-form {
+	background-color: white;
+	width: 90%;
+	border: 1px solid black;
+	border-radius: 4px;
+	margin: 15px auto;
+	padding: 5px;
+}
+
+label {
+/*	margin: 0px auto;*/
+}
+
+
+/*Right Side*/
+.main {
+	background-color: gray;
+	margin: 20px;
+}
+
+article img {
+	margin: 10px auto;
+	float: none;
+}
+
+article h2 {
+	clear: left;
+}
+
+footer {
+	background-color:#39435e;
+}
+
+footer a {
+	display: inline-block;
+	margin: 0px auto;
+
+}
+
+footer a:hover{
+	transform: scale(1.01);
+}
+
+.cat-contact {
+	width: 500px;
+	height:250px;
+}
+
+.clear {
+	clear: both;
+}
+
+
+@media (min-width: 768px) and (max-width: 991px) { /*Small*/
+
+.main {
+	margin-top: 50px;
+}
+
+
+}
+
+@media (min-width: 992px) and (max-width: 1199px) { /*Medium*/
+
+
+/*Main content*/
+.side {
+	height: 300px;
+	margin: 20px;
+}
+
+.cat-form {
+	background-color: white;
+	width: 90%;
+	border: 1px solid black;
+	border-radius: 4px;
+	margin: 15px auto;
+	padding: 5px;
+}
+
+label {
+/*	margin: 0px auto;*/
+}
+
+
+/*Right Side*/
+.main {
+	background-color: gray;
+	margin: 20px;
+}
+
+article img {
+	margin: 10px;
+
+}
+
+footer {
+	background-color:#39435e;
+}
+footer a {
+	display: inline-block;
+	margin: 0px auto;
+
+}
+
+footer a:hover{
+	transform: scale(1.01);
+}
+
+.cat-contact {
+	width: 500px;
+	height:250px;
+}
+
+.clear {
+	clear: both;
+}
+
+
+}
